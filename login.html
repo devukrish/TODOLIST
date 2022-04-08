@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+
+
+    
+
+
+    
+</head>
+<body>
+  
+  <style>
+    body {
+     background-image: url('https://ledigitalizeur.fr/wp-content/uploads/2020/10/to-do-list-applications.png');
+     background-size:cover;
+    }
+    </style>
+
+
+ <form action="index.html" id="form" onsubmit="return validate(redirect)">
+  <div id="mainButton">
+   <div class="btn-text" onclick="openForm()">LOG IN</div>
+   <div class="modal">
+     <div class="form-title"><b>LOG IN</b></div>
+     <div class="input-group">
+      <input type="text" name="" id="username" onkeyup="validate(redirect)"   required>
+       <label><b>Username</b></label>
+     </div>
+     <label for="error" id="error1"></label>
+      <br>
+
+
+
+     <div class="input-group">
+      <input type="password" id="password"   onkeyup="validate(redirect)" required>
+        
+       <label><b>Password</b></label>
+     </div>
+
+     <label for="error" id="error2"></label>
+    <br>
+    <button type="submit" id="btn" >
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Submit
+    </button>
+    
+     <div class="codepen-by">Created By Devika Krishnan</div>
+   </div>
+ </div>
+ <div class="codepen-by"><b>Created By  Devika Krishnan</b></div>
+
+
+ 
+</form>
+
+</body>
+<script src="log.js"></script>
+
+</html>
